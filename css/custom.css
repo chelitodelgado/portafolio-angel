@@ -1,0 +1,354 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.navbar-brand {
+    color: #f0f0f0 !important;
+}
+
+.navbar-nav .nav-link{
+    color: #f0f0f0 !important;
+}
+
+.navbar-toggler-icon {
+    background: #f0f0f0 !important;
+}
+
+.navbar-toggler .navbar-toggler-icon:before {
+    background: #f0f0f0 !important;
+}
+
+.navbar-toggler .navbar-toggler-icon:after {
+    background: #f0f0f0 !important;
+}
+
+.container {
+
+}
+
+.section-networks {
+    background-image: url('../fondo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* CANALES DE COMUNICACION */
+
+.container-fluido{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.container-redes {
+    width: 350px;
+    height: 350px;
+    margin-top: -35%;
+    position: absolute;
+    top: 40%;
+    left: 0%;
+}
+
+.container-icons {
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.iconos {
+    z-index: 9;
+}
+
+.ico {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 1px gray;
+    border-radius: 50%;
+}
+
+.nucleo {
+
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 37%;
+    top: 35%;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 50%;
+    border: none;
+}
+
+.text-nucleo {
+    margin-top: 53px;
+    font-size: 1.4rem;
+}
+
+.ico-1 {
+    top: -10%;
+    left: 39%;
+}
+
+.ico-2 {
+    left: -4%;
+    top: 15%;
+}
+
+.ico-3 {
+    left: -7%;
+    top: 62%;
+}
+
+.ico-4 {
+    left: 39%;
+    top: 90%;;
+}
+
+.ico-5 {
+    left: 84%;
+    top: 62%;
+}
+
+.ico-6 {
+    left: 81%;
+    top: 15%;
+}
+
+
+/* CONTAINER ICONOS */
+.rotate-center-container {
+	-webkit-animation: rotate-center 100s linear infinite reverse both;
+	        animation: rotate-center 100s linear infinite reverse both;
+}
+
+/* ICONOS */
+.rotate-center {
+	-webkit-animation: rotate-center 100s linear infinite both;
+	        animation: rotate-center 100s linear infinite both;
+}
+
+/* SOMBRAS */
+.shadow-drop-center {
+	-webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+@-webkit-keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+}
+@keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes shadow-drop-center {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    }
+  }
+@keyframes shadow-drop-center {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    }
+}
+  
+
+.precios {
+    margin: 0 auto;
+    justify-content: center;
+    justify-items: center;
+}
+
+.alizarin {
+    background: #e74c3c
+}
+
+.amethyst {
+    background: #9b59b6
+}
+
+.emerald {
+    background: #2ecc71
+}
+
+.midnight-blue {
+    background: #2c3e50
+}
+
+.peter-river {
+    background: #3498db
+}
+
+.dl {
+    background: #f0f0f0;
+    padding: 30px 0;
+    border-radius: 10px;
+    position: relative
+}
+
+.dl:before {
+    content: " ";
+    height: 20px;
+    width: 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    margin-left: -10px
+}
+
+.dl .brand {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    text-align: center;
+    min-height: 100px
+}
+
+.dl .discount {
+    min-height: 50px;
+    position: relative;
+    font-size: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-weight: 700;
+    padding: 20px 15px 0;
+    color: #ffffff
+}
+
+.dl .discount:after {
+    content: " ";
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    position: absolute;
+    bottom: -20px;
+    left: 20%
+}
+
+.dl .discount.alizarin:after {
+    border-top: 20px solid #e74c3c
+}
+
+.dl .discount.peter-river:after {
+    border-top: 20px solid #3498db
+}
+
+.dl .discount.emerald:after {
+    border-top: 20px solid #2ecc71
+}
+
+.dl .discount.amethyst:after {
+    border-top: 20px solid #9b59b6
+}
+
+.dl .discount .type {
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: -30px
+}
+
+.dl .descr {
+    color: #999;
+    margin-top: 10px;
+    padding: 20px 15px
+}
+
+.dl .ends {
+    padding: 0 15px;
+    color: #f1c40f;
+    margin-bottom: 10px
+}
+
+.dl .coupon {
+    min-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 20px 15px
+}
+
+.dl .coupon a.open-code {
+    color: #16a085
+}
+
+.dl .coupon .code {
+    letter-spacing: 1px;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 10px 15px;
+    color: #f1c40f;
+    background: #f0f0f0
+}
+
+@media only screen and (max-width: 700px) {
+    .text-angel{
+        font-size: 1.7rem !important;
+    }
+
+    .container-redes {
+        width: 250px;
+        height: 250px;
+        margin-top: -35%;
+        position: absolute;
+        top: 40%;
+        left: 0%;
+    }
+    
+    .container-icons {
+        width: 220px;
+        height: 220px;
+        top: 120%;
+        left: 30%;
+    }
+    
+    .ico {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .nucleo {
+        width: 150px;
+        height: 150px;
+        left: 44%;
+        top: 135%;
+    }
+    .text-nucleo {
+        margin-top: 40px;
+        font-size: .9rem;
+    }
+}
