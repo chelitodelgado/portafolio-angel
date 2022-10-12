@@ -4,28 +4,14 @@
 	box-sizing: border-box;
 }
 
-.navbar-brand {
-    color: #f0f0f0 !important;
+.text-container{
+    width: 900px;
 }
 
-.navbar-nav .nav-link{
-    color: #f0f0f0 !important;
-}
-
-.navbar-toggler-icon {
-    background: #f0f0f0 !important;
-}
-
-.navbar-toggler .navbar-toggler-icon:before {
-    background: #f0f0f0 !important;
-}
-
-.navbar-toggler .navbar-toggler-icon:after {
-    background: #f0f0f0 !important;
-}
-
-.container {
-
+.btn-orange {
+    width: 250px;
+    height: 45px;
+    background-color: #e3b622;
 }
 
 .section-networks {
@@ -316,6 +302,11 @@
 }
 
 @media only screen and (max-width: 700px) {
+    
+    .text-container{
+        width: 100%;
+    }
+
     .text-angel{
         font-size: 1.7rem !important;
     }
